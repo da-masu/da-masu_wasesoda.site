@@ -5,11 +5,19 @@
 }
 
 .fv{
+    position: relative;
     width: 100vw;
     height: 1120px;
     background-image: url(images/FV.jpg);
     background-position: center center;
     background-size: cover;
+}
+
+#waveCanvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 
@@ -23,13 +31,25 @@
     padding-left: 85px;
 }
 
-#about::before{
-    content:url(images/border1.png);
-    position: absolute;
-    top: -100px;
-    left: 0;
 
+/* #about::before{
+    content:"";
+    display: block;
+    width: 100%;
+    background-image: url(images/border1.png);
+    background-size: contain;
     
+} */
+
+.about_top_wave {
+    position: absolute;
+    display: block;
+    bottom: calc(100% - 1px);
+
+    left: 0;
+    width: 100%;
+    height: auto;
+
 }
 
 #about{
