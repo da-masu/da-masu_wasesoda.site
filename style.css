@@ -12,6 +12,8 @@
     background-size: cover;
 }
 
+
+
 .fv h1{
     color:#FFFAFA;
     font-size: 300px;
@@ -56,6 +58,7 @@
     justify-content: space-between;
     margin-bottom: 190px;
     gap:190px;
+    
 }
 
 .about_content_image1{
@@ -74,7 +77,8 @@
     font-size: 40px;
     letter-spacing: 0.15em;
     line-height: 1;
-    max-width: 400px;
+    white-space: nowrap;
+    
 }
 
 .what{
@@ -89,14 +93,9 @@
     line-height: 40px;
     align-self: flex-end;
     margin-top: 40px;
+    max-width: 400px;
 }
 
-.about_content_body span{
-    font-weight: 400;
-    font-size: 20px;
-    padding-top: 40px;
-
-}
 
 #charm {
     background-color: #FF97C9;
@@ -264,6 +263,7 @@
     line-height: 40px;
     margin-top: 48px;
     max-width: 375px;
+    letter-spacing: 0.15em;
 }
 
 .atmosphere_smallbox{
@@ -292,3 +292,102 @@
     padding-top: 140px;
     padding-left: 130px;
 }
+
+.join_bigbox{
+    margin-top: 100px;
+}
+
+.join_smallbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 280px 77px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.15em;
+    background-color: #FFFAFA;
+    padding: 42px 35px 42px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.join_title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    align-self: center;
+}
+
+.join_body{
+    max-width: 677px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    align-self: center;
+}
+
+#contact {
+    background-color: #FF97C9;
+    height: 1278px;
+    width: 100vw;
+    color:#FFFAFA;
+    position: relative;
+}
+
+#contact h1 {
+    font-size: 128px;
+    font-family: 'Darumadrop One', cursive;
+    line-height: 200px;
+    padding-top: 140px;
+    padding-left: 130px
+}
+
+.contact_bigbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 258px 600px;
+    gap: 20px;
+}
+
+.contact_smallbox{
+    text-align: center;
+    
+}
+
+.contact_img{
+width: 86px;
+height: 86px;
+margin-bottom: 12px;
+}
+
+.contact_name{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+}
+
+.end{
+    font-weight: 400;
+    font-size: 350px;
+    line-height: 1;
+    font-family: 'Londrina Outline', cursive;
+    text-align: right;
+    max-height: 253px;
+}
+
+.copy{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.15em;
+    transform: rotate(90deg);
+    max-width: 12px;
+    max-height: 75px;
+    position: absolute;
+    left: 22px;
+    top: 720px;
+    
+}
+
+
