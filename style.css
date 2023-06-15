@@ -24,10 +24,16 @@
 }
 
 #about::before{
-    content:url(images/);
+    content:url(images/border1.png);
+    position: absolute;
+    top: -100px;
+    left: 0;
+
+    
 }
 
 #about{
+    position: relative;
     background-color:#FBC7E0;
     height: 2842px;
     width: 100vw;
