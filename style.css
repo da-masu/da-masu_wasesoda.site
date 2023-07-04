@@ -152,6 +152,8 @@
     border: 20px solid #FFFAFA;
     border-radius: 8px;
     transform: rotate(-5deg);
+    width: 40vw;
+    height: 60vw;
 
 }
 
@@ -300,10 +302,14 @@
 
 .atmosphere_img1{
     border-radius: 10px 0px 0px 10px;
+   width: 38vw;
+    height: 29vw;
 }
 
 .atmosphere_img2{
     border-radius: 0px 10px 10px 0px;
+    width: 38vw;
+    height: 29vw;
 }
 
 #join {
