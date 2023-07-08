@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100%
 }
 
 .fv{
@@ -707,15 +708,16 @@ margin-bottom: 12px;
     font-size: 350px;
     line-height: 1;
     font-family: 'Londrina Outline', cursive;
+    text-align: right;
     max-height: 253px;
-    position: absolute;
-    bottom: 0;
-    left: 80px;
 }
 
 @media screen and (max-width: 768px){
  .end{
     font-size: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
  }
 }
 
