@@ -369,6 +369,7 @@ height: 3800px;
     gap: 135px;
     margin-top: 100px;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 .activity_smallbox1{
@@ -378,6 +379,9 @@ height: 3800px;
     border-radius: 10px;
     width: 557px;
     height: 925px;
+    box-sizing: border-box;
+    max-width: 100%;
+
 }
 
 .activity_smallbox2{
@@ -387,6 +391,8 @@ height: 3800px;
     border-radius: 10px;
     width: 557px;
     height: 925px;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .activity_smallbox3{
@@ -396,11 +402,14 @@ height: 3800px;
     border-radius: 10px;
     width: 557px;
     height: 925px;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .activity_image{
     border-radius: 8px;
     width: 100%;
+    max-width: 100%;
     
 }
 
@@ -413,6 +422,8 @@ height: 3800px;
     font-size: 25px;
     line-height: 40px;
     letter-spacing: 0.15em;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 }
 
@@ -694,10 +705,14 @@ margin-bottom: 12px;
         justify-content: space-between;
         margin: 258px 191px;
         gap: 40px;
+        box-sizing: border-box;
+        max-width: 100%;
     }
     
     .contact_smallbox{
         text-align: center;
+        box-sizing: border-box;
+        max-width: 100%;
         
     }
     
@@ -721,6 +736,7 @@ margin-bottom: 12px;
     text-align: right;
     max-height: 253px;
     max-width: 100%;
+    
 }
 
 @media screen and (max-width: 768px){
@@ -729,6 +745,8 @@ margin-bottom: 12px;
     position: absolute;
     bottom: 0;
     left: 80px;
+    box-sizing: border-box;
+    word-wrap:break-word
  }
 }
 
