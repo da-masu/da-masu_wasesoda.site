@@ -30,6 +30,7 @@
     line-height: 434px;
     padding-top: 640px;
     padding-left: 85px;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 768px)
@@ -164,6 +165,7 @@
 .about_content_body2{
     font-size: 25px;
     line-height: 50px;
+    align-self: center;
     max-width: 600px;
 }
 
@@ -741,12 +743,11 @@ margin-bottom: 12px;
 
 @media screen and (max-width: 768px){
  .end{
-    font-size: 180px;
+    font-size: 6.7rem;
     position: absolute;
     bottom: 0;
-    left: 80px;
-    box-sizing: border-box;
-    word-wrap:break-word
+    right:0;
+    
  }
 }
 
